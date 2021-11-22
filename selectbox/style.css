@@ -1,0 +1,60 @@
+h2 {
+    margin: 30px;
+}
+
+body {
+    font-size: 12px;
+    padding-left:50px;
+}
+.btn-select {
+    width: 200px;
+    padding: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.btn-select:hover {
+    border: 1px solid #9B51E0;
+    box-shadow: 0 0 20px #f8e4fe;
+}
+.list-member {
+    display: none;
+    width: 200px;
+}
+
+.list-member.on {
+    display: block;
+}
+
+.btn-select:focus+.list-member {
+    display: block;
+    margin-top: 10px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.list-member li {
+    height: 40px;
+    width: 200px;
+}
+
+.list-member li button {
+    position: relative;
+    width: 184px;
+    height: 30px;
+    left: 8px;
+    top: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    text-align: left;
+}
+
+.list-member li button:hover {
+    background-color: #F8E4FF;
+}
