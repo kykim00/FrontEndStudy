@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+body {
+    position: relative;
+    background: #5b2386;
+    width: 100%;
+}
+
+.head_title{
+    position: absolute;
+    width: 267px;
+    height: 53px;
+    left: 47px;
+    top: 100px;
+}
+
+.head_background {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    left: 118px;
+    top: 65px;
+    z-index: -1;
+}
+
+.quotes {
+    position: absolute;
+    width: 302px;
+    height: 48px;
+    left: 29px;
+    top: 332px;
+    
+    font-family: Gmarket Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: rgba(252, 238, 33, 0.3);
+    
+}
+
+.nav_saying {
+    position: absolute;
+    width: 297px;
+    height: 24px;
+    left: 32px;
+    top: 222px;
+
+    font-family: tvN Enjoystories;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F5DF4D;
+}
+
+.wise_saying {
+    position: absolute;
+    width: 290px;
+    height: 68px;
+    left: 35px;
+    top: 308px;
+
+    font-family: Gmarket Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+/* @media screen and (max-width: 394px) {
+    body {
+        transform: scale(20%);
+    }
+} */
