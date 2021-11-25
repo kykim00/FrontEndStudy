@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        div {
+            border: darkgoldenrod solid 5px;
+            border-radius: 30px;
+            background: chocolate;
+            height: 100px;
+            width: 200px;
+            box-sizing: border-box;
+            text-align: center;
+            line-height: 80px;
+            font-size: 2em;
+            color: white;
+            transition: all 1s;
+        }
+
+        .one:hover {
+            background: teal;
+            transform: rotate(90deg) scale(1.2);
+        }
+
+        .two:hover {
+            background: teal;
+            transform: translate(100px, 200px);
+        }
+    </style>
+</head>
+<body>
+    <div class="one">push</div>
+    <div class="two">push</div>
+</body>
+</html>
