@@ -7,6 +7,7 @@ body {
     padding-left:50px;
 }
 .btn-select {
+    position:relative;
     width: 200px;
     padding: 14px;
     text-align: left;
@@ -14,6 +15,30 @@ body {
     border: 1px solid #C4C4C4;
     border-radius: 10px;
     box-sizing: border-box;
+}
+.btn-select::after {
+    display: inline-block;
+    position:absolute;
+    content: '';
+    background-image: url(images/icon-Triangle-down.png);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+.btn-select:focus::after {
+    display: inline-block;
+    position:absolute;
+    content: '';
+    background-image: url(images/icon-Triangle-up.png);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    bottom: 50%;
+    transform: translateY(-50%);
+    right: 10px;
 }
 .btn-select:hover {
     border: 1px solid #9B51E0;
