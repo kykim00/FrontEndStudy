@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 
 ul {
@@ -17,4 +18,25 @@ ul {
             color: green;
         }
     }
+=======
+@charset "UTF-8";
+
+ul {
+    list-style: none;
+    li {
+        color: red;
+        font-size: 20px;
+    }
+}
+
+.one {
+    .two {
+        .three {
+            color: goldenrod;
+        }
+        .four {
+            color: green;
+        }
+    }
+>>>>>>> 9a47c7bd55b64269917e311612a66adf17c1c743
 }

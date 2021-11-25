@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Sass 공식문서
 @debug not true; // false
 @debug not false; // true
@@ -6,4 +7,14 @@
 @debug true and false; // false
 
 @debug true or false; // true
+=======
+// Sass 공식문서
+@debug not true; // false
+@debug not false; // true
+
+@debug true and true; // true
+@debug true and false; // false
+
+@debug true or false; // true
+>>>>>>> 9a47c7bd55b64269917e311612a66adf17c1c743
 @debug false or false; // false

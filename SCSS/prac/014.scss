@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin flex-center {
     display: flex;
     justify-content: center;
@@ -11,4 +12,19 @@
 .aside {
     @include flex-center;
 	background: white;
+=======
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    @include flex-center;
+    background: gray;
+}
+
+.aside {
+    @include flex-center;
+	background: white;
+>>>>>>> 9a47c7bd55b64269917e311612a66adf17c1c743
 }

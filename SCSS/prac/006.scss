@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //색상
 $red: #ee4444;
 $black: #222;
@@ -30,4 +31,38 @@ p{
 
 a {
     color: $link-color;
+=======
+//색상
+$red: #ee4444;
+$black: #222;
+$bg-color: #3e5e9e;
+$link-color : red;
+$p-color : #282A36;
+
+//폰트사이즈
+$font-p : 13px;
+$font-h1 : 28px;
+
+//폰트
+$base-font : 'Noto Sans KR', sans-serif;
+
+body{
+        background-color : $bg-color;
+        font-size : $font-p;
+        font-family : $base-font;
+}
+
+h1{
+   font-size : $font-h1;
+     color : $black;
+}
+
+p{
+    font-size : $font-p;
+    color : $black;
+}
+
+a {
+    color: $link-color;
+>>>>>>> 9a47c7bd55b64269917e311612a66adf17c1c743
 }

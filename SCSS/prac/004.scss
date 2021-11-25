@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ul {
     li {
         &:hover {
@@ -8,4 +9,16 @@ ul {
             border-bottom: 2px solid black;
         }
     }
+=======
+ul {
+    li {
+        &:hover {
+            background: green;
+            cursor: pointer;
+        }
+        &:last-child {
+            border-bottom: 2px solid black;
+        }
+    }
+>>>>>>> 9a47c7bd55b64269917e311612a66adf17c1c743
 }

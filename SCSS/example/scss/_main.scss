@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .text-container {
   padding: 40px;
   background-color: $main-color;
@@ -14,3 +15,21 @@
     margin: 0;
   }
 }
+=======
+.text-container {
+  padding: 40px;
+  background-color: $main-color;
+  height: 100%;
+}
+
+.text-box {
+  margin-bottom: 50px;
+  h2 {
+    @include font-style($font-main, $font-22, $dark-black);
+  }
+  p {
+    @include font-style($font-main, $font-15, $light-black);
+    margin: 0;
+  }
+}
+>>>>>>> 9a47c7bd55b64269917e311612a66adf17c1c743

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naver login</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+
+        body {
+            margin: 10px;
+        }
+        section {
+            box-sizing: border-box;
+            padding: 16px 16px 12px 17px;
+            background: #f7f9fa;
+            border: 1px solid #dae1e6;
+            width: 350px;
+        }
+        p {
+            font-size: 12px;
+            color: #808080;
+        }
+        .login_box {
+            display: block;
+            background: #19ce60;
+            width: 315px;
+            color: white;
+            padding: 15px 0;
+            margin: 11px 0;
+            border-radius: 2px;
+            text-align: center;
+            text-decoration: none;
+        }
+        img.naver {
+            position: relative;
+            right: 5px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: -1px;
+            width: 60px;
+            height: 12px;
+            text-align: center;
+        }
+        .container {
+            display:flex;
+            justify-content: space-between;
+        }
+        .lock {
+            margin-top: 1px;
+            width: 10px;
+            height: 14px;
+        }
+        .footer_left {
+            font-size: 12px;
+        }
+
+        .footer_right {
+            font-size: 12px;
+        }
+        .id_name::after {
+            display: inline-block;
+            content: '';
+            width: 3px;
+            height: 3px;
+            background: grey;
+            border-radius: 100%;
+            vertical-align: 3px;
+            margin-left: 5px;
+
+        }
+        .user {
+            margin-top: 1px;
+            width: 10px;
+            height: 14px;
+        }
+        footer a {
+            text-decoration: none;
+            color: #404040;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p>네이버를 더 안전하고 편리하게 이용하세요</h3>
+        <a href="" class="login_box">
+            <img src="images/title.png" class="naver" alt="NAVER">로그인
+        </a>
+        <footer class="container">
+            <div class="footer_left">
+                <img src="images/lock.png" class="lock" alt="">
+                <a href="" class="id_name">아이디</a>
+                <a href="">비밀번호찾기</a>
+            </div>
+            <div class="footer_right">
+                <img src="images/user.png" class="user" alt="">
+                <a href="">회원가입</a>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>

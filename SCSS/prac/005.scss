@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .article {
     display: flex;
     justify-content: space-between;
@@ -10,4 +11,18 @@
         opacity: 0.5;
       }
     }
+=======
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    .article-content {
+      font-size: 14px;
+      opacity: 0.7;
+      @at-root i {
+        opacity: 0.5;
+      }
+    }
+>>>>>>> 9a47c7bd55b64269917e311612a66adf17c1c743
 }
