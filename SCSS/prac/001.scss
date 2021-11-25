@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+ul {
+    list-style: none;
+    li {
+        color: red;
+        font-size: 20px;
+    }
+}
+
+.one {
+    .two {
+        .three {
+            color: goldenrod;
+        }
+        .four {
+            color: green;
+        }
+    }
+}
