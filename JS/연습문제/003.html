@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <button type="button">로또생성기</button>
+    <div class="number">aa</div>
+    <script>
+        function getLottoNumbers() {
+            let lottos = []
+            
+            while (lottos.length < 6) {
+                let randNum = Math.floor(Math.random()*(46-1)+1);
+                if (lottos.includes(randNum)) {
+                    continue
+                } else {
+                    lottos.push(randNum);
+                }
+            }
+            const nums = document.querySelector(".number");
+            nums.innerText = lottos.sort((a, b) => a - b);
+            // console.log(lottos.sort((a, b) => a - b));
+        }
+        
+        const btn = document.querySelector("button");
+        btn.addEventListener('click', getLottoNumbers);
+    </script>
+</body>
+</html>
