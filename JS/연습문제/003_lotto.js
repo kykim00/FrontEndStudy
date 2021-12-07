@@ -11,3 +11,5 @@ function getLottoNumbers() {
     }
     console.log(lottos.sort((a, b) => a - b));
 }
+
+getLottoNumbers()
